@@ -369,7 +369,7 @@ async def handle_files(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
 def main() -> None:
 
-    application = ApplicationBuilder().token("7895923677:AAE598bRHaII-pdUyWupicxzl5ilqzZoZJo").build()
+    application = ApplicationBuilder().token("YOUR_TOKEN_BOT").build()
 
 
     application.add_handler(CommandHandler("start", start))
